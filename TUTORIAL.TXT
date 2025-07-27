@@ -1,0 +1,54 @@
+## Tutorial: Como usar este analisador de rede (passo a passo para iniciantes)
+
+Siga este guia mesmo que você **nunca tenha programado** antes!  
+Você só precisa de um computador com Windows e acesso à internet.
+
+### 1. Instale o Python
+
+- Acesse: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+- Clique em **Download Python** e instale normalmente (marque a opção "Add Python to PATH" durante a instalação).
+
+### 2. Baixe os arquivos do projeto
+
+- Clique em **Code > Download ZIP** aqui no GitHub.
+- Extraia o arquivo ZIP em uma pasta fácil de encontrar, por exemplo: `C:\analisador_rede`
+
+### 3. Abra o Prompt de Comando (CMD)
+
+- Pressione `Win + R`, digite `cmd` e pressione Enter.
+
+### 4. Acesse a pasta do projeto
+
+No CMD, digite (ajuste o caminho se necessário):
+
+```cmd
+cd C:\analisador_rede
+```
+
+### 5. Instale as dependências
+
+Digite o comando abaixo e pressione Enter:
+
+```cmd
+pip install -r requirements.txt
+```
+
+### 6. Execute o analisador
+
+No mesmo CMD, digite:
+
+```cmd
+python analisador_rede.py
+```
+
+### 7. Veja o resultado
+
+- Após rodar, aparecerá a mensagem:  
+  `Relatório salvo em log_rede.txt!`
+- Abra o arquivo `log_rede.txt` na mesma pasta para ver o relatório.
+
+---
+
+**Pronto!**  
+Você usou o analisador de rede sem precisar programar.  
+Se tiver dúvidas, peça ajuda a alguém de confiança ou procure tutoriais no YouTube sobre "como usar o CMD" e "como
